@@ -1,0 +1,55 @@
+/* payment.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #1A1A1D;
+  color: #ECECEC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  color: #50C878;
+  text-shadow: 0 0 10px rgba(80, 200, 120, 0.7);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #2B2B2D;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 300px;
+}
+
+input[type="submit"] {
+  background: linear-gradient(45deg, #50C878, #6D83F2);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(45deg, #6D83F2, #50C878);
+  transform: scale(1.05);
+}
+
+input[type="submit"]:active {
+  transform: scale(0.95);
+}
+
+input[type="hidden"] {
+  display: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <script src="bot.js"></script>
+    <link rel="stylesheet" href="bot.css">
+    <link href="{{url_for('static', filename='bot.css)}}'"
+     
+    
+</head>
+<body>
+    <div class="chat-wrapper">
+        <div id="history-box" class="sidebar">
+            <!-- Chat history will appear here -->
+        </div>
+        <div class="chat-container">
+            <div id="chat-box">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="input-container">
+                <input type="text" id="message" placeholder="Type your message">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+<h2>NOWPayments👇🏻</h2>
+
+<form action="https://nowpayments.io/payment/?iid=5100101002" method="post">
+  <input type="hidden" name="price_amount" value="99.99">
+  <input type="hidden" name="price_currency" value="usd">
+  <input type="hidden" name="pay_currency" value="btc">
+  <input type="hidden" name="ipn_callback_url" value="http://yourwebsite.com/callback">
+  <input type="hidden" name="order_id" value="ORDER12345">
+  <input type="hidden" name="order_description" value="Order Description">
+  <input type="submit" value="Pay with Bitcoin">
+</form> 
+
+</body>
+</html>

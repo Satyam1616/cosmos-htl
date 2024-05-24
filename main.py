@@ -26,7 +26,7 @@ history = [
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("bot.html")
 
 @app.route("/get_response", methods=["POST"])
 def get_response():
